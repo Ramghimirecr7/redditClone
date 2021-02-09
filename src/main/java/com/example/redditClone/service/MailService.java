@@ -38,4 +38,4 @@ class MailService {
             throw new SpringRedditException("Exception occurred when sending mail to " + notificationEmail.getRecipient(), e);
         }
     }
-} 
+}
